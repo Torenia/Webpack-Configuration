@@ -1,0 +1,40 @@
+{
+  "name": "webpack-configuration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "postcss-scss": "^4.0.1",
+    "precss": "^4.0.0",
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.3.0",
+    "eslint": "^7.32.0",
+    "eslint-loader": "^4.0.2",
+    "html-webpack-plugin": "^5.3.2",
+    "less": "^4.1.2",
+    "less-loader": "^10.0.1",
+    "mini-css-extract-plugin": "^2.4.1",
+    "postcss": "^8.3.9",
+    "postcss-loader": "^6.1.1",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^3.3.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack-dev-server": "^4.3.1",
+    "webpack-merge": "^5.8.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "Tetiana Osadcha",
+  "license": "ISC"
+}
